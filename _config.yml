@@ -13,3 +13,5 @@ header_pages:
 
 plugins:
   - jekyll-seo-tag
+
+theme: jekyll-theme-minimal
