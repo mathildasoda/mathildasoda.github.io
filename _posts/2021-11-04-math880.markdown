@@ -9,3 +9,4 @@ categories:
 The paper below is written for MATHT880
 [MATHT880.pdf](https://github.com/mathildasoda/mathildasoda.github.io/blob/master/_posts/880_final_prez_note.pdf)
 
+<embed src="880_final_prez_note.pdf" width="800px" height="2100px" />
