@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MATHT880: Stochastic PDE Finals Paper: "
+title:  "Examples for the Filtering Problem"
 date:   2021-03-19 12:32:45 +0100
 categories:
 ---

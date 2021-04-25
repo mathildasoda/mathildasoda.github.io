@@ -6,13 +6,13 @@ permalink: /about/
 
 # Me
 
-Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and Computer Science. My current interests are anything probability, statistics, and calculus.
+Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and minoring in Computer Science. My current interests are anything probability, statistics, and calculus.
 
 # Organization + my roles
 
 [Drexel Wireless Systems Lab](https://research.coe.drexel.edu/ece/dwsl/): an Engineering Lab at Drexel University, where I do research in dynamics state space approximation and prediction methods 
 
-[Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms, I'm also part of a subgroup studying Multi-arm Bandit algorithm
+[Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms (especially Game Theory), I'm also part of a subgroup studying Multi-arm Bandit algorithm
 
 # Classes 
 
