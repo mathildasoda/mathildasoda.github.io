@@ -1,7 +1,7 @@
 ---
-title: /
+title: /writings
 layout: home
-permalink: /
+permalink: /writings
 ---
 
 # Writings
