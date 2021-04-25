@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MATHT880: Stochastic PDE Finals Paper: "
-date:   2021-19-03 12:32:45 +0100
+date:   2021-03-19 12:32:45 +0100
 categories:
 ---
 
