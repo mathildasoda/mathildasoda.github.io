@@ -6,9 +6,9 @@ permalink: /about/
 
 # Me
 
-Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and minoring in Computer Science. My current interests are anything probability, statistics, and calculus. These days, I found myself reading up on various Game Theory topics, especially in learning algorithms and resource allocations. 
+Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and minoring in Computer Science. My current interests are anything probability, statistics, and calculus. These days, I also read up on various Game Theory topics, especially in learning algorithms and resource allocations. 
 
-In my free time, I like to read up on esoteric maths, hang out with my friends, and skate.
+In my free time, I like to browse wiki pages on esoteric maths, hang out with my friends, and skate.
 
 # Organization + my roles
 
