@@ -11,7 +11,7 @@ Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and
 
 # Organization + my roles
 
-Drexel Mathematics department: Study Markov Chain Monte Carlo methods for Bayesian Inverse problems under Dr. Cecilia Mondaini
+[Drexel Mathematics department](https://drexel.edu/coas/academics/departments-centers/mathematics/): Study Markov Chain Monte Carlo methods for Bayesian Inverse problems under Dr. Cecilia Mondaini
 
 [Drexel Wireless Systems Lab](https://research.coe.drexel.edu/ece/dwsl/): an Engineering Lab at Drexel University, where I do research in dynamics state space approximation and prediction methods 
 
