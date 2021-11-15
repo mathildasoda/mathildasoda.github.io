@@ -1,7 +1,7 @@
 ---
 title: /blog
 layout: home
-permalink: /
+permalink: /blog
 ---
 
 Some blog stuffs
