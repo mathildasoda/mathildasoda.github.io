@@ -9,4 +9,4 @@ The notes from the final presentation for the (graduate level) class MATHT880: S
 
 The topic is chosen based on my current wish to further understand the mathematical side/construction of filtering problems, which is my research for Drexel's Wireless Systems Lab.
 
-<iframe src="https://drive.google.com/file/d/1X2ON4I7gbIwUK3bsq2b53QZBwEhgaq6Y/preview"></iframe>
+<iframe src="https://drive.google.com/file/d/1X2ON4I7gbIwUK3bsq2b53QZBwEhgaq6Y/preview" width="100%" height="100vh"></iframe>
