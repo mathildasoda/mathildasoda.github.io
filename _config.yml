@@ -9,7 +9,7 @@ header_pages:
   - about.md
   - availability.md
 
-footer: 'Contact me through email qtn35@drexel.edu'
+footer: ''
 
 #style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
