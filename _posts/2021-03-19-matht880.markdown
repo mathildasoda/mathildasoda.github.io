@@ -5,8 +5,8 @@ date:   2021-03-19 12:32:45 +0100
 categories:
 ---
 
-The notes from the final presentation for the (graduate level) class MATHT880: Stochastic Partial Differential Equation. It is taken from the book "Stochastic Differential Equations" by Bernt Oksendal, chapter 6: The Filtering Problem. 
+The notes from the final presentation for the (graduate level) class MATHT880: Stochastic Partial Differential Equation. It is taken from the book "Stochastic Differential Equations" by Bernt Oksendal, chapter 6: The Filtering Problem.
 
-The topic is chosen based on my current wish to further understand the mathematical side/construction of filtering problems, which is my research for Drexel's Wireless Systems Lab. 
+The topic is chosen based on my current wish to further understand the mathematical side/construction of filtering problems, which is my research for Drexel's Wireless Systems Lab.
 
-<iframe src="https://drive.google.com/file/d/1X2ON4I7gbIwUK3bsq2b53QZBwEhgaq6Y/preview" width="600" height="600"></iframe>
+<iframe src="https://drive.google.com/file/d/1X2ON4I7gbIwUK3bsq2b53QZBwEhgaq6Y/preview"></iframe>
