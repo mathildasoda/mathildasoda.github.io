@@ -2,7 +2,7 @@
 layout: post
 title:  "Cake Cutting Algorithm"
 date:   2020-10-14 12:32:45 +0100
-categories:
+categories: talks, game theory
 ---
 
 This is a presentation for a Tech Talk for the Drexel Algorithm & Data Structure club. Tech talks aim to educate people from non STEM backgrounds in algorithms.

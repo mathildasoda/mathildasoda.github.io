@@ -2,7 +2,7 @@
 layout: post
 title:  "Particle Filter Algorithm"
 date:   2020-12-05 12:32:45 +0100
-categories:
+categories: #physics
 ---
 This is the paper I wrote for the finals of PHYS450/550: Big Data Physics, an undergraduate cross-listed with graduate course on Big Data methods in Python, using Astronomy datasets.
 
