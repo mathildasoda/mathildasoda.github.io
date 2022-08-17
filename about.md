@@ -11,7 +11,7 @@ Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and
 
 # Organizations
 
-[Flagship Pioneerings - Montai Health](montai.com): I am currently a Computational Modelling Scientist at Montai. I'm creating an ML model to predict some biological properties. On the side, my projects include fitting parameters using Bayesian inference
+[Flagship Pioneerings - Montai Health](montai.com): I am currently a Computational Modelling Scientist at Montai. I'm creating an ML model to predict some biological properties. On the side, my projects include using Bayesian methods to infer parameters from bio data
 
 [Group One Trading LP](group1.com): I was a trading analyst intern for 6 months. I learnt option tradings and conduct a market research on possible future legislation and how it might affect tradings, which was presented to the firm
 
