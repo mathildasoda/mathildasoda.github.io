@@ -3,5 +3,4 @@ title: /~
 layout: home
 permalink: /
 ---
-
-All posts written by me:
+Talks / presentations / writings:
