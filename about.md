@@ -6,29 +6,29 @@ permalink: /about/
 
 # Me
 
-Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and Computer Science (tracks: AI, Numerical & Symbolic computation). My main research is in MCMC methods. My current interests are anything probability, statistics, and calculus.
+Hello! I'm Mathilda Nguyen, an undergraduate student (double) majoring in Mathematics and Computer Science (tracks: AI & ML, Numerical & Symbolic computation). So far, the main point of my (academic) interest has been statistics/probability and analysis, in particular Bayesian statistics and modelling.
 
 
 # Organizations
 
-[Flagship Pioneerings - Montai Health](montai.com): I am currently a Computational Modelling Scientist at Montai. I'm creating an ML model to predict some biological properties. On the side, my projects include using Bayesian methods to infer parameters from bio data
+[Flagship Pioneerings - Montai Health](montai.com): I was a Computational Modelling Scientist at Montai for 6 months, during which time I created an ML model to predict some biological properties. On the side, my projects include coding up Bayesian models in [Stan](https://mc-stan.org/) to infer parameters from bio data
 
 [Group One Trading LP](group1.com): I was a trading analyst intern for 6 months. I learnt option tradings and conduct a market research on possible future legislation and how it might affect tradings, which was presented to the firm
 
-[Drexel Mathematics department](https://drexel.edu/coas/academics/departments-centers/mathematics/): I study Hamiltonian Monte Carlo under professor Mondaini
+[Drexel Mathematics department](https://drexel.edu/coas/academics/departments-centers/mathematics/): Studied Hamiltonian Monte Carlo under professor Mondaini
 
-[Drexel Wireless Systems Lab](https://research.coe.drexel.edu/ece/dwsl/): an Engineering Lab at Drexel University, where I did research in dynamics state space approximation and prediction methods
+[Drexel Wireless Systems Lab](https://research.coe.drexel.edu/ece/dwsl/): an Engineering Lab at Drexel University, where I did research in dynamics state space approximation and prediction methods (sequential monte carlo)
 
-[Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms (especially Game Theory)
+[Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi Arm bandit algorithm
 
-[Drexel College of Computing and Informatics](https://www.cs.drexel.edu/clc/Fa21/index.html): I am a Teaching Assistant for 2 courses: Data Structure, and Mathematical Foundation of Computer Science
+[Drexel College of Computing and Informatics](https://www.cs.drexel.edu/clc/Fa21/index.html): I am a Teaching Assistant for courses: Data Structure (fall 2021, winter 2022, spring 2022), Mathematical Foundation of Computer Science (fall 2021), Computer Programming I (fall 2022) & II (winter 2023)
 
 
-# Notable classes
+# Notable courseworks
 
-<span style="text-decoration: underline">Mathematics</span>: Probability Theory I (graduate course); Stochastic Partial Differential Equations (graduate course); Principle of Analysis I (graduate course); Math of Machine Learning; Linear Algebra; Abstract Algebra; Probability & Statistics I,II; Numerical Analysis I, II; Mathematical model in Economics; Mathematical Finance
+<span style="text-decoration: underline">Mathematics</span>: Probability Theory I (graduate course); Stochastic Partial Differential Equations (graduate course); Principle of Analysis I & II (graduate courses); Math of Machine Learning; Linear Algebra; Abstract Algebra I & II; Probability & Statistics I,II; Numerical Analysis I, II; Mathematical model in Economics; Mathematical Finance; Complex variables
 
-<span style="text-decoration: underline">Computer Science</span>: Artificial Intelligence, Data Structures, Advanced topics in algorithms
+<span style="text-decoration: underline">Computer Science</span>: Artificial Intelligence, Machine Learning, Data Structures, Advanced topics in algorithms
 
 <span style="text-decoration: underline">Others</span>: Big Data Physics (Cross-listed with graduate course), Wireless Systems for the IoT
 
