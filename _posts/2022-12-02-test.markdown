@@ -7,3 +7,7 @@ categories: maths
 ---
 
 hmmm
+
+$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
+
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
