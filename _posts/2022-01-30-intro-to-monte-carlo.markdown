@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Monte Carlo methods - [talk/presentation] Drexel Algorithm & Data Structure club"
 date:   2022-01-30 12:32:45 +0100
-categories: talks, game theory
+categories: others
 ---
 An introduction to Monte Carlo methods and it's application.
 
