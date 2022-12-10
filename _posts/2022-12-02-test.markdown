@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "a math stuff"
+date:   2020-10-14 12:32:45 +0100
+subfield: analysis
+categories: maths
+---
+
+hmmm
