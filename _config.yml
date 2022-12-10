@@ -3,9 +3,10 @@
 #google_analytics: UA-NNNNNNNN-N
 
 title: 'mathilda nguyen'
-description: 'Maths + CS undergrad researcher'
+description: ''
 header_pages:
   - index.md
+  - maths.md
   - about.md
   - availability.md
 
