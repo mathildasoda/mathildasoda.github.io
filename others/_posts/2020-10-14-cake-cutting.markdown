@@ -2,7 +2,7 @@
 layout: post
 title:  "Cake Cutting Algorithm - [talk/presentation] Drexel Algorithm & Data Structure club"
 date:   2020-10-14 12:32:45 +0100
-categories: talks, game theory
+categories: others
 ---
 Cake cutting is a basic fair division problem in Game Theory. This is an easy-to-understand, funny, and important algorithm that can be a good introduction to the field. (Game Theory made me realize that there's a mathematical field out there which quantifies people's emotions)
 
