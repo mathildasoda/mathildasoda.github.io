@@ -11,3 +11,7 @@ hmmm
 $ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+
+{% raw $}
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+{% endraw %}
