@@ -19,3 +19,7 @@ plugins:
   - jekyll-seo-tag
 
 theme: jekyll-theme-minimal
+
+defaults:
+  values:
+    mathjax: true
