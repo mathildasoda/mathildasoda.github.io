@@ -1,6 +1,10 @@
 ---
+layout: post
 title: For Example of very Long Title Would Be Typography Elements in One
-category: maths
+date:   2020-10-14 12:32:45 +0100
+subfield: stuffs
+mathjax: true
+categories: maths
 ---
 
 **NOTE:** This markdown cheatsheet is a typography demo for this theme. Check out this post to learn more about this markdown usage when you want to get started with this theme. Enjoy!
