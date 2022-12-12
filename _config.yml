@@ -11,6 +11,7 @@ header_pages:
   - availability.md
 
 footer: ''
+mathjax: true
 
 #style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
@@ -18,17 +19,11 @@ footer: ''
 plugins:
   - jekyll-seo-tag
   - jekyll-latex
-  - jekyll-spaceship
 
 theme: jekyll-theme-minimal
 
-defaults:
-  values:
-    mathjax: true
 
 markdown: kramdown
 
 kramdown:
-  math_engine: katex
   input: GFM
-  hard_wrap: false
