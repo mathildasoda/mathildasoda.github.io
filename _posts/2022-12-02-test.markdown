@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "a math stuff"
+title:  "test"
 date:   2020-10-14 12:32:45 +0100
 subfield: analysis
 categories: maths
 ---
-
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 hmmm
 
 $ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
