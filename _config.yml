@@ -17,6 +17,7 @@ footer: ''
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-latex
 
 theme: jekyll-theme-minimal
 
