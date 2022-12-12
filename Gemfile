@@ -6,3 +6,4 @@ gemspec
 
 gem 'jekyll-seo-tag'
 gem 'jekyll-latex'
+gem 'jekyll-spaceship', group: :jekyll_plugins
