@@ -24,4 +24,6 @@ theme: jekyll-theme-minimal
 defaults:
   values:
     mathjax: true
-    markdown: kramdown
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
