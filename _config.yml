@@ -25,6 +25,10 @@ theme: jekyll-theme-minimal
 defaults:
   values:
     mathjax: true
+
 markdown: kramdown
+
 kramdown:
   math_engine: mathjax
+  input: GFM
+  hard_wrap: false
