@@ -1,0 +1,75 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://www.mathildasoda.com"
+theme = "hugo-morphism"
+title = "Mathilda"
+
+[author]
+  name = "Mathilda"
+	uri = "www.mathildasoda.com"
+
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+[permalinks]
+  post = "/:section/:year/:month/:filename/"
+
+[params]
+  subtitle = "Morphism Example Site Subtitle"
+  showFooter = false
+  showPoweredBy = false
+  # listPaginatorLimit = 1000000
+
+[[menu.nav]]
+  # name = "&#x1F3E0;"
+  name = "home"
+  pre = ""
+  weight = -110
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  # name = "&#x1f4dc;"
+  name = "posts"
+  pre = ""
+  weight = -100
+  identifier = "posts"
+  url = "/post"
+
+[[menu.index]]
+  # name = "&#x1f4dc;"
+  name = "Posts"
+  pre = ""
+  weight = -100
+  identifier = "posts"
+  url = "/post"
+[[menu.index]]
+  # name = "&#x1f471;"
+  name = "About"
+  pre = ""
+  weight = -80
+  identifier = "me"
+  url = "/page/me"
+
+[[menu.footer]]
+  name = "GitHub"
+  pre = ""
+  weight = -100
+  identifier = "github"
+  url = "https://github.com/mathildasoda"
+[[menu.footer]]
+  name = "LinkedIn"
+  pre = ""
+  weight = -80
+  identifier = "linkedin"
+  url = "https://www.linkedin.com/in/mathilda-nguyen"
+[[menu.footer]]
+  name = "Mail"
+  pre = ""
+  weight = -70
+  identifier = "mail"
+  url = "mailto:mathilda.sodaa@gmail.com"
