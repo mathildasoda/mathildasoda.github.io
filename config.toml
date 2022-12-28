@@ -2,13 +2,13 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 builddrafts = false
-baseurl = "http://www.mathildasoda.com"
+baseurl = "http://mathildasoda.github.io"
 theme = "hugo-morphism"
 title = "Mathilda"
 
 [author]
   name = "Mathilda"
-	uri = "www.mathildasoda.com"
+	uri = "http://mathildasoda.io"
 
 [taxonomies]
   category = "categories"
