@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "test"
+date:   2020-10-14 12:32:45 +0100
+subfield: analysis
+categories: maths
+---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+hmmm
+
+$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
+
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+
+This is an inline equation: $$V_{sphere} = \frac{4}{3}\pi r^3$$,<br>
+followed by a display style equation:
+
+$$V_{sphere} = \frac{4}{3}\pi r^3$$
+
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+    \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]

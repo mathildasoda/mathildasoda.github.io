@@ -1,0 +1,29 @@
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+title: 'mathilda nguyen'
+description: ''
+header_pages:
+  - index.md
+  - maths.md
+  - about.md
+  - availability.md
+
+footer: ''
+mathjax: true
+
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-latex
+
+theme: jekyll-theme-minimal
+
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
