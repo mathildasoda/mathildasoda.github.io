@@ -5,7 +5,7 @@ permalink: /About
 ---
 Hello, I'm Mathilda, an undergraduate student pursuing a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). My main interest lies in statistical modeling.
 
-# Organizations
+# Experience
 
 **University of Pennsylvania - Department of Physics & Astronomy**: I'm working on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies
 
