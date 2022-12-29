@@ -1,7 +1,7 @@
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 environment: prod
-url: "http://mathildasoda.com"  # Sitemap base URL.
+url: "https://mathildasoda.github.com"  # Sitemap base URL.
 plugins:
   - jekyll-scholar
   - jekyll-sitemap
