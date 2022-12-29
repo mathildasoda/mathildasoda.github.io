@@ -5,7 +5,7 @@ base_url = "https://mathildasoda.github.io/"
 theme = "emily_zola_theme"
 
 # The site title and description; used in feeds by default.
-title = "site title"
+title = "Mathilda"
 description = ""
 
 # The default language; used in feeds.
@@ -59,7 +59,7 @@ include_content = false
 
 [extra]
 # Author name, appears in footer.
-emily_author = "author name"
+emily_author = "Mathilda"
 
 # Path to the header icon / favicon image.
 # Please save image to static/images
