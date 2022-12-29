@@ -4,8 +4,6 @@ title: about me
 permalink: /about
 ---
 
-# Me
-
 Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and Computer Science (tracks: AI & ML, Numerical & Symbolic computation). My main interest lies in statistical modeling.
 
 # Organizations
