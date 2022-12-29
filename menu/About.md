@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /About
 ---
-
 Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and Computer Science (tracks: AI & ML, Numerical & Symbolic computation). My main interest lies in statistical modeling.
 
 # Organizations
@@ -20,8 +19,7 @@ Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and
 
 [Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi Arm bandit algorithm
 
-[Drexel College of Computing and Informatics](https://www.cs.drexel.edu/clc/Fa21/index.html): I am a Teaching Assistant for courses: Data Structure (fall 2021, winter 2022, spring 2022), Mathematical Foundation of Computer Science (fall 2021), Computer Programming I (fall 2022) & II (winter 2023)
-
+[Drexel College of Computing and Informatics](https://www.cs.drexel.edu/clc/Fa21/index.html): I am a Teaching Assistant for courses: Data Structure (fall 2021, winter 2022, spring 2022), Mathematical Foundation of Computer Science (fall 2021), Computer Programming I (fall 2022) & II (winter 2023). My duties includes grading, proctoring exams, hosting labs sessions, and hosting office hours
 
 # Notable courseworks
 
