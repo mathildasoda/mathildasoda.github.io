@@ -1,30 +1,15 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
-
-title: 'mathilda nguyen'
-description: ''
-header_pages:
-  - index.md
-  - maths.md
-  - about.md
-  - availability.md
-
-footer: ''
-mathjax: true
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
-
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+environment: prod
+url: "http://mathildasoda.com"  # Sitemap base URL.
 plugins:
-  - jekyll-seo-tag
-  - jekyll-latex
-
-theme: jekyll-theme-minimal
-
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  math_engine: katex
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-katex
+katex:
+  js_path: "assets"  # Path used to search for katex.min.js
+  rendering_options:
+    # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
+    throw_error: false      # throwOnError - set to false if you want rendering to output error as text rather than a build error
+    error_color: "#cc0000"  # errorColor
