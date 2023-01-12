@@ -9,18 +9,18 @@ Feel free to email me at qtn35[at]drexel[dot]edu
 <style unselectable="on">
 #wrap {
 width:1000px;
-height:800px;
+height:1000px;
 padding:0;
-position:relative;
-left:-100px;
+position:static;
+left:0px;
 top:0px;
 overflow:hidden;
 }
 #frame {
 width:1000px;
-height:800px;
-position:relative;
-left:-100px;
+height:1000px;
+position:static;
+left:0px;
 top:0px;
 }
 #frame {
