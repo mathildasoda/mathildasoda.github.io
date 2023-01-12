@@ -8,7 +8,7 @@ If you are having any problems, any questions or suggestions, feel free to email
 
 <style unselectable="on">
 #wrap {
-width:1000px;
+width:800px;
 height:900px;
 padding:0;
 position:relative;
@@ -17,7 +17,7 @@ top:0px;
 overflow:hidden;
 }
 #frame {
-width:1000px;
+width:800px;
 height:900px;
 position:relative;
 left:0px;
