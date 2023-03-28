@@ -14,8 +14,6 @@ Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and
 
 [Group One Trading LP](group1.com): I interned as a trading analyst for 6 months. I learnt option tradings and presented to the firm my market research on possible future legislation and how it might affect tradings
 
-[Drexel Mathematics department](https://drexel.edu/coas/academics/departments-centers/mathematics/): Studied Hamiltonian Monte Carlo under professor Mondaini
-
 [Drexel Wireless Systems Lab](https://research.coe.drexel.edu/ece/dwsl/): an Engineering Lab at Drexel University, where I did research in dynamics state space approximation and prediction methods (sequential monte carlo)
 
 [Drexel Computer Science Theory Reading Group](http://theory.cs.drexel.edu/index.html): a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi Arm bandit algorithm
@@ -35,6 +33,8 @@ Hello! I'm Mathilda Nguyen, an undergraduate student majoring in Mathematics and
 # Accomplishments
 
 Aspire Scholar: 1 of 15 undergraduate students from all department; scholars are given opportunities and stipends to develop and clarify their goals
+
+Steinbright Partners Program awardee
 
 Dean's List
 
