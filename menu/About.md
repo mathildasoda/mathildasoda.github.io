@@ -3,7 +3,9 @@ layout: page
 title: About
 permalink: /About
 ---
-Hello, I'm Mathilda, an undergraduate student pursuing a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation), and a minor in Data Science. My main interest lies in statistical modeling.
+Hello, I'm Mathilda, an undergraduate student pursuing a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation), a minor in Linguistics, and Intermediate Proficiency Certificate in German.
+
+My main interest lies in statistical modeling.
 
 # Experience
 
