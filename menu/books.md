@@ -119,3 +119,5 @@ I decided to make this list because I don't read so much anymore and I don't wan
 **The hitchhiker's guide to the galaxy** (Adams)
 
 **Six easy pieces** (Feynman)
+
+**Yevgeny Onegin** (Pushkin)
