@@ -11,6 +11,7 @@ menu:
 - {name: 'Documents', url: 'documents.html'}
   #- {name: 'Dictionary', url: 'dictionary.html'}
 - {name: 'Contact', url: 'contact.html'}
+- {name: 'Books', url: 'books.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
