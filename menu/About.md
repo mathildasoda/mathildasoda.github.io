@@ -9,11 +9,11 @@ My main interest lies in statistical modeling.
 
 # Experience
 
-**University of Pennsylvania - Department of Physics & Astronomy**: For my senior thesis, I'm working on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies
+**University of Pennsylvania - Department of Physics & Astronomy**: For my senior thesis, I worked on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies. I also got the chance to see the launch of Euclid telescope in person due to my PI's involvement in the project!
 
 **Flagship Pioneerings - Montai Health**: I worked as a Computational Modelling Scientist at Montai for 6 months, during which time I created a machine learning model to predict certain biological properties. On the side, my projects include improving and coding up Bayesian models in [Stan](https://mc-stan.org/) for inferrence of biological effects from 2D (quasi-spatial) and 1D data
 
-**Group One Trading LP**: I interned as a trading analyst for 6 months. I learnt option tradings and presented to the firm my market research on possible future legislation and how it might affect tradings
+**Group One Trading LP**: I interned as a trading analyst for 6 months. I learnt option tradings, among other things
 
 **Drexel Wireless Systems Lab**: an Engineering Lab at Drexel University, where I did research in dynamics state space approximation and prediction methods (sequential monte carlo)
 
