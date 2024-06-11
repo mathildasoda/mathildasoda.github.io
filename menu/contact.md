@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact
 ---
 
-Feel free to email me at qtn35[at]drexel[dot]edu
+Feel free to email me at mathilda[dot]sodaa[at]gmail[dot]com
 
 
 <style unselectable="on">
