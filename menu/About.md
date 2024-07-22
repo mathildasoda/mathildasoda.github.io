@@ -3,11 +3,14 @@ layout: page
 title: About
 permalink: /About
 ---
-Hello, I'm Mathilda, an undergraduate student pursuing a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold the Intermediate Proficiency Certificate in German, and a minor in Linguistics.
+Hello, I'm Mathilda. I just finiehd my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
 My main interest lies in statistical modeling.
 
+My hobbies include going to museums, taking care of my plants, knitting and embroidery.
+
 # Experience
+**Los Alamos National Lab - EES-16**: For my post-bac, I will be working on computational fire dynamics
 
 **University of Pennsylvania - Department of Physics & Astronomy**: For my senior thesis, I worked on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies. I also got the chance to see the launch of Euclid telescope in person due to my PI's involvement in the project!
 
