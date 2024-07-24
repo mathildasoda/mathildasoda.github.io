@@ -29,7 +29,7 @@ I decided to make this list because I don't read so much anymore and I don't wan
 
 **When breath becomes air** (Kalanithi): absolutely broke me
 
-**Man's search for meaning** (Frankl): would have absolutely broke me for the same reason as Kalanithi's book had it not been for the fact that Frankl's work is somewhat more optimistic
+**Man's search for meaning** (Frankl): would have absolutely broke me for the same reason as Kalanithi's book had it not been for the fact that Frankl's work is somewhat more/ strive to be(?) optimistic
 
 **The metamorphosis** (Kafka): i already know what happened more or less and only read it out of love for Kafka. The ending was very unexpected and very abrupt
 
@@ -54,8 +54,6 @@ I decided to make this list because I don't read so much anymore and I don't wan
 **Animal farm** (Orwell): good
 
 **Catcher in the rhye** (Salinger): it might be too "cringe" for me now but back when i first read it it was ok. My sister's favorite book.
-
-**Anne Frank** (Frank): insightful
 
 **The Little Prince** (Saint-Exupéry): wonderful!
 
@@ -101,18 +99,17 @@ I decided to make this list because I don't read so much anymore and I don't wan
 
 **Myth of Sisyphus** (Camus): I read this quite a few years ago - didn't really get it
 
-**Catch-22** (Heller): i couldn't finish it. The book was good however
+**Catch-22** (Heller): i couldn't finish it, and now I was left wondering whether i quit right when it was about to get good
 
-**Surely you're joking, Mr. Feynman!** (Feynman): incredible book! I had fun reading it. Feynman's personality seems to be a bit like that of Vonnegut's
+**Surely you're joking, Mr. Feynman!** (Feynman): incredible book! I had fun reading it. Feynman is incredibly charming
 
 **The fault in our stars** (Green): made me really sad
 
-**Packing for Mars** (Roach): one of the greatest books i've read when i was young
+**Packing for Mars** (Roach): one of the greatest books i've read when i was young, made me wanted to work on space sciences before 18-year-old me realized that i probably won't be able to get a career in the field (i no longer hold this belief and now look back at my schoolings with a tinge of regret)...
 
-**Foundation series** (Asimov): i'm trying to finish it but asimov's misogyny makes it difficult
+**Foundation series** (Asimov): i finished the first book and was half-way through the second when asimov's misogyny finally caught up to me... i would love to pick it up again in the future however
 
 # To-read
-
 
 **Crime and punishment** (Dostoevsky)
 

@@ -3,14 +3,14 @@ layout: page
 title: About
 permalink: /About
 ---
-Hello, I'm Mathilda. I just finiehd my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
+Hello, I'm Mathilda. I just finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
-My main interest lies in statistical modeling.
+My main interest lies in Bayesian statistics, and applying mathematical/computational methods to problems in the sciences.
 
 My hobbies include going to museums, taking care of my plants, knitting and embroidery.
 
 # Experience
-**Los Alamos National Lab - EES-16**: For my post-bac, I will be working on computational fire dynamics
+**Los Alamos National Lab - EES-16 (FIRE team)**: For my post-bacc, I will be contributing to computational fire dynamics code
 
 **University of Pennsylvania - Department of Physics & Astronomy**: For my senior thesis, I worked on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies. I also got the chance to see the launch of Euclid telescope in person due to my PI's involvement in the project!
 
@@ -22,4 +22,4 @@ My hobbies include going to museums, taking care of my plants, knitting and embr
 
 **Computer Science Theory Reading Group**: a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi-armed Bandits algorithm
 
-**Drexel College of Computing and Informatics**: Since 2021 I have been a Teaching Assistant for courses: Data Structure, Mathematical Foundation of Computer Science, Computer Programming I & II. My duties includes grading, proctoring exams, hosting labs sessions, and hosting office hours
+**Drexel College of Computing and Informatics**: Since 2021 I have been a Teaching Assistant for courses: Data Structure, Mathematical Foundation of Computer Science, Computer Programming I & II. My duties includes grading (written and programming tests/homeworks), proctoring exams, hosting labs sessions and office hours
