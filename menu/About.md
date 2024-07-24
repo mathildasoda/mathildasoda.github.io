@@ -7,7 +7,7 @@ Hello, I'm Mathilda. I just finished my undergraduate with a B.S in Mathematics 
 
 My main interest lies in Bayesian statistics, and applying mathematical/computational methods to problems in the sciences.
 
-My hobbies include going to museums, taking care of my plants, knitting and embroidery.
+In my free time, you can find me in museumss, or at home taking care of my plants, knitting, embroidering, or fixing the various problems Artix decided to throw at me that month.
 
 # Experience
 **Los Alamos National Lab - EES-16 (FIRE team)**: For my post-bacc, I will be contributing to computational fire dynamics code
