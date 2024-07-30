@@ -7,7 +7,7 @@ categories: general
 
 My senior thesis presentation is below, as you can see I finally managed to find the very nice presentation template that everyone use everywhere - I finally learn to use beamer (sort of)!
 
-An overview: BNN-HI works for training/testing of the same distribution (currently diagonal gaussian), but not on train-test sets of different distributions. Moreover, there are problems with regard to parameter constrains: hierarchical step necessitates synthetics and posterior distribution belonging to the same family, but such setup is hard to accomplish for current setting of BNN (efforts documented below). In the latter half of my thesis, we changed direction and explored simulation-based inference.
+An overview: BNN-HI works for training/testing of the same distribution, but not on train-test sets of different distributions. Moreover, there are problems with regard to parameter constrains: hierarchical step necessitates synthetics and posterior distribution belonging to the same family, but such setup is hard to accomplish for current setting of BNN (efforts documented below). In the latter half of my thesis, we changed direction and explored simulation-based inference.
 
 <iframe src="https://drive.google.com/file/d/1gSqlen7jH0BwOUZYYkShWIzOn3fliFTo/preview" width="100%" height="800" scrollbar=0 view=Fit></iframe>
 
