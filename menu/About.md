@@ -7,10 +7,12 @@ Hello, I'm Mathilda. I just finished my undergraduate with a B.S in Mathematics 
 
 My main interest lies in Bayesian statistics, and applying mathematical/computational methods to problems in the sciences.
 
-In my free time, you can find me in museumss, at home taking care of my plants, or fixing the various problems [Artix](https://artixlinux.org/) decided to throw at me that month. After this holiday season, I will be working on learning car maintenance as I just bought a car (a stock '93 black and tan miata)!
+In my free time, you can find me in museumss, at home taking care of my plants, or fixing the various problems [Artix](https://artixlinux.org/) decided to throw at me that month. 
 
 # Experience
-**Los Alamos National Lab - EES-16 (FIRE team)**: For my post-bacc, I will be contributing to computational fire dynamics code
+**Los Alamos National Lab - Theoretical division**: Researching sampling methods for high dimensional distribution 
+
+**Los Alamos National Lab - Earth & Environmental division**: Contributing to computational fire dynamics code, developing methods in geomorphology
 
 **University of Pennsylvania - Department of Physics & Astronomy**: For my senior thesis, I worked on improving Bayesian Neural Network models for inferrence of structural parameters of galaxies. I also got the chance to see the launch of Euclid telescope in person due to my PI's involvement in the project!
 
