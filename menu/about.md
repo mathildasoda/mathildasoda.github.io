@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /About
+permalink: /about
 ---
 Hello, I'm Mathilda. Currently, I'm a post-baccalaureate working at Los Alamos on sampling problems. 
 
