@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Text Formatting Examples - not by me. For reference's sake"
-author: "Paul Le"
+title: "Tryout"
+author: "mathilda"
 categories: maths
 ---
 
