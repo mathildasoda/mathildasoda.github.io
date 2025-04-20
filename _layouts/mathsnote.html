@@ -12,13 +12,6 @@ layout: default
       {% for post in posts %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <p class="post-date">
-            <i class="fa fa-calendar" aria-hidden="true"></i>
-            {{ post.date | date: "%B %-d, %Y" }}
-            &nbsp;–&nbsp;
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            {% include read-time.html %}
-          </p>
         </li>
       {% endfor %}
     </ul>
