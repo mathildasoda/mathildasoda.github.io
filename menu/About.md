@@ -3,9 +3,11 @@ layout: page
 title: About
 permalink: /About
 ---
-Hello, I'm Mathilda. I just finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
+Hello, I'm Mathilda. Currently, I'm a post-baccalaureate working at Los Alamos on sampling problems. 
 
 My main interest lies in Bayesian statistics, and applying mathematical/computational methods to problems in the sciences.
+
+In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
 In my free time, you can find me in museumss, at home taking care of my plants, or fixing the various problems [Artix](https://artixlinux.org/) decided to throw at me that month. 
 
