@@ -8,9 +8,9 @@ google-ID: 'UA-112060364-1'
 
 menu:
 - {name: 'About',   url: 'About.html'}
+- {name: 'Maths notes', url: 'mathsnotes.html'}
 - {name: 'Chronological', url: 'chronological.html'}
   #- {name: 'Dictionary', url: 'dictionary.html'}
-- {name: 'Maths notes', url: 'mathsnotes.html'}
 - {name: 'Contact', url: 'contact.html'}
   #- {name: 'Books', url: 'books.html'}
 

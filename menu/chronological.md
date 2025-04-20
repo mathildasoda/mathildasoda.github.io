@@ -1,5 +1,5 @@
 ---
 layout: archive
 title: Chronological
-permalink: /Chronological
+permalink: /chronological
 ---
