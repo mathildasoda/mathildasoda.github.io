@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: All writings
+title: Chronological
 permalink: /documents
 ---
