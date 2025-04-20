@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: Documents
+title: All writings
 permalink: /documents
 ---

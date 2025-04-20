@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+---
+layout: default
+---
+
+<h1>
+</h1>
+
+<ul class="categories-container">
+  {% for category in site.categories %}
+    <h3>{{ category[0] }}</h3>
+    <ul class="posts-container">
+      {% for post in category[1] %}
+        <li itemscope>
+          <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+          <p class="post-date">
+            <span>
+              <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d, %Y" }} -
+              <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+            </span>
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</ul>
