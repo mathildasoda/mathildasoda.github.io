@@ -7,7 +7,7 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'About',   url: 'About.html'}
+- {name: 'About',   url: 'about.html'}
 #- {name: 'Chronological', url: 'chronological.html'}
 - {name: 'Maths notes', url: 'mathsnotes.html'}
   #- {name: 'Dictionary', url: 'dictionary.html'}
