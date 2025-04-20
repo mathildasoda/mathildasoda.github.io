@@ -2,7 +2,6 @@
 layout: post
 title:  "Hamiltonian Monte Carlo note #1 - [self study]"
 date:   2022-01-30 12:32:45 +0100
-categories: general
 ---
 First note on a series of notes on Hamiltonian Monte Carlo.
 
