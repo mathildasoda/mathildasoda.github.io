@@ -5,10 +5,10 @@ author: "mathilda"
 categories: maths
 ---
 
-Also, trying out multiline equation on MathJax
+We try to approximate $\mathbf{E}[f(x)]$, for some random variable $x \tilde p_X$
 
 $$\begin{eqnarray}
-\mathbf{E}[\frac{1}{N}\Sum^N_{i=1} ] &=& x^4 + 4      \nonumber \\
+\mathbf{E}[\frac{1}{N}\sum^N_{i=1} ] &=& x^4 + 4      \nonumber \\
 &=& (x^2+2)^2 -4x^2 \nonumber \\
 &\le&(x^2+2)^2    \nonumber
 
