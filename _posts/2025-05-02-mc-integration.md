@@ -18,5 +18,5 @@ Law of large number states that $\frac{1}{n}\sum^n x_i \xrightarrow{n\rightarrow
 
 To be verbose, this means $\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)} \xrightarrow{n\rightarrow\infty} \mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}]=\int_X f(x)dx $,
 
-
+Note the [law of the unconscious statistician](https://en.wikipedia.org/wiki/Law_of_the_unconscious_statistician): $\mathbf{E}_{p_X}[f(x)] = \int_X f(x) p_X(x) dx$
 
