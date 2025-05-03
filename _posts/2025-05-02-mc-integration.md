@@ -9,7 +9,7 @@ For some random variable $x \sim p_X$, we approximate multidimensional integral 
 
 $$\begin{eqnarray}
 \mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}] &=& \frac{1}{N}\sum^N_{i=1}\mathbf{E}[\frac{f(x_i)}{p_X(x_i)}]      \nonumber \\
-&=& \frac{1}{N}\sum^N_{i=1}\int_X \frac{f(x)}{p_X(x)} p_X(x) & & \llap{(law of the unconscious statistician)}\\
+&=& \frac{1}{N}\sum^N_{i=1}\int_X \frac{f(x)}{p_X(x)} p_X(x) \\
 &=& \frac{1}{N}N\int_X f(x) \\
 &\int_X f(x) 
 \end{eqnarray}$$
