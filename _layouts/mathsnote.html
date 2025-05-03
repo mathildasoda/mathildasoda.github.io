@@ -3,17 +3,18 @@ layout: default
 ---
 
 <h6></h6>
-
 {% for category in site.categories %}
-  <section class="category-block">
-    <h2>{{ category[0] | capitalize }}</h2>
-    <ul class="posts-container">
-      {% assign posts = category[1] | sort: "date" | reverse %}
-      {% for post in posts %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+  {% unless category[0] == "general" %}
+    <section class="category-block">
+      <h2>{{ category[0] | capitalize }}</h2>
+      <ul class="posts-container">
+        {% assign posts = category[1] | sort: "date" | reverse %}
+        {% for post in posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endunless %}
 {% endfor %}
