@@ -27,7 +27,6 @@ In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Comp
 **Computer Science Theory Reading Group**: a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi-armed Bandits algorithm
 
 # Trivia
-
 I like linux's open source philosophy and customizability (I use [artix](https://artixlinux.org/) these days). 
 
-I drive a '93 miata.
+  I drive a '93 mx-5.
