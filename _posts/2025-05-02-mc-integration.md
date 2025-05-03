@@ -14,9 +14,9 @@ $$\begin{eqnarray}
 &\int_X f(x) 
 \end{eqnarray}$$
 
-Law of large number states that $\frac{1}{n}\sum^n x_i \xrightarrow[n\rightarrow\infty] \mu$, "partial averages converges a.s to the means". 
+Law of large number states that $\frac{1}{n}\sum^n x_i \xrightarrow[n\rightarrow\infty]{} \mu$, "partial averages converges a.s to the means". 
 
-To be verbose, this means $\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)} \xrightarrow[n\rightarrow\infty] \mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}]=\int_X f(x)dx $,
+To be verbose, this means $\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)} \xrightarrow[n\rightarrow\infty]{} \mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}]=\int_X f(x)dx $,
 
 
 
