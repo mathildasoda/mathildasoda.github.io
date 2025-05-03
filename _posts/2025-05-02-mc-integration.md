@@ -5,7 +5,7 @@ author: "mathilda"
 categories: "MCMC"
 ---
 
-For some random variable $x \sim p_X$, we approximate multidimensional integral $\int_X f(x) dx$ with some sum $\frac{1}{N}\sum^N_{i=1, x_i\sim p_X} \frac{f(x_i)}{p_X(x_i)}$
+For some random variable $x \sim p_X$, we approximate multidimensional integral $\int_X f(x) dx$ with some sum $\frac{1}{N}\sum^N_{i=1, x_i\sim p_X} \frac{f(x_i)}{p_X(x_i)}$. Proof:
 
 $$\begin{eqnarray}
 \mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}] &=& \frac{1}{N}\sum^N_{i=1}\mathbf{E}[\frac{f(x_i)}{p_X(x_i)}]      \nonumber \\

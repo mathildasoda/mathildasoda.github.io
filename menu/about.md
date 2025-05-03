@@ -20,9 +20,14 @@ In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Comp
 
 **Group One Trading LP** (trading analyst) Learnt option tradings and did some projects relating to it 
 
-**Drexel Wireless Systems Lab** (research intern): Did research in sequential monte carlo
+**Drexel Wireless Systems Lab** (research intern): Did research on sequential monte carlo
 
-**Drexel College of Computing and Informatics** (teaching assistant): For courses: Data Structure, Mathematical Foundation of Computer Science, Computer Programming I & II. I graded written and programming tests/homeworks, proctored exams, hosted labs sessions and office hours
+**Drexel College of Computing and Informatics** (teaching assistant) for courses: Data Structure, Mathematical Foundation of Computer Science, Computer Programming I & II. I graded written and programming tests/homeworks, proctored exams, hosted labs sessions and office hours
 
 **Computer Science Theory Reading Group**: a reading group focusing on advanced material in algorithms (especially Game Theory), where I gave a talk on Multi-armed Bandits algorithm
 
+# Trivia
+
+I like linux's open source philosophy and customizability (I use [artix](https://artixlinux.org/) these days). 
+
+I drive a '93 miata.
