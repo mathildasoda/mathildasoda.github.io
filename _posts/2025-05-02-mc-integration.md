@@ -2,22 +2,21 @@
 layout: post
 title: "Proof of Monte Carlo integration"
 author: "mathilda"
-categories: maths
+categories: "MCMC centric"
 ---
 
-We try to approximate $\mathbf{E}[f(x)]$, for some random variable $x \tilde p_X$
+For some random variable $x \sim p_X$, we approximate $\mathbf{E}[f(x)]$ with some sum $\frac{1}{N}\sum^N_{i=1, x_i\sim p_X}f(x_i)/p_X(x_i)$
 
 $$\begin{eqnarray}
-\mathbf{E}[\frac{1}{N}\sum^N_{i=1} ] &=& x^4 + 4      \nonumber \\
-&=& (x^2+2)^2 -4x^2 \nonumber \\
-&\le&(x^2+2)^2    \nonumber
-
+\mathbf{E}[\frac{1}{N}\sum^N_{i=1} \frac{f(x_i)}{p_X(x_i)}] &=& \frac{1}{N}\sum^N_{i=1}\mathbf{E}[{f(x_i)}{p_X(x_i)}]      \nonumber \\
+&=& \frac{1}{N}\sum^N_{i=1}\int_X {f(x)}{p_X(x)} p_X(x) \\
+&=& \frac{1}{N}N\int_X f(x) \\
+&=&\int_X f(x)   \nonumber
+& \mathbf{E}[f(x)]
 \end{eqnarray}$$
 
+Law of large number states that $\mathbf{P}[lim_{n\rightarrow \infty}\frac{1}{n}\sum^n x_i = \mathbf{E}[x]] = 1$, "partial averages converges a.s to the means".
+
+(1) is due to "Law of the unconscious statistician"
 
 
-The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) is a partial differential equation that describes how the quantum state of a quantum system changes with time:
-
-$$
-i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)
-$$
