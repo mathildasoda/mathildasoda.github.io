@@ -10,7 +10,7 @@ My main interest lies in Bayesian statistics, and applying mathematical/computat
 In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
 # Experience
-**Los Alamos National Lab - Theoretical division** (post-bacc): Researching sampling methods for high dimensional problems; continuing the geomorphology project from previous division on the side
+**Los Alamos National Lab - Theoretical division** (post-bacc): Researching sampling methods for high dimensional problems; continuing the geomorphology project from previous division
 
 **Los Alamos National Lab - Earth & Environmental division** (post-bacc): Contributed to computational fire dynamics code; developing methods in geomorphology
 
@@ -18,7 +18,7 @@ In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Comp
 
 **Flagship Pioneerings - Montai Health** (computational modelling scientist): Created a machine learning model to predict certain biological properties. On the side, my projects include improving and coding up Bayesian models in [Stan](https://mc-stan.org/) for inferrence of biological effects from 2D (quasi-spatial) and 1D data
 
-**Group One Trading LP** (trading analyst) Learnt option tradings and did some projects relating to it 
+**Group One Trading LP** (trading analyst): Learnt option tradings and did some projects relating to it 
 
 **Drexel Wireless Systems Lab** (research intern): Did research on sequential monte carlo
 
@@ -29,4 +29,4 @@ In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Comp
 # Trivia
 I like linux's open source philosophy and customizability (I use [artix](https://artixlinux.org/) these days). 
 
-  I drive a '93 mx-5.
+I drive a '93 mx-5.
