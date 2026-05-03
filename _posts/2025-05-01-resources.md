@@ -2,7 +2,7 @@
 layout: post
 title: "Resources"
 author: "mathilda"
-categories:
+categories: "resources"
 ---
 
 Some resources I found which has helped a lot with my understanding
