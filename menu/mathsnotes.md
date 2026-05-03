@@ -1,5 +1,5 @@
 ---
 layout: mathsnote
-title: Maths notes
-permalink: /mathsnotes
+title: Notes
+permalink: /notes
 ---
