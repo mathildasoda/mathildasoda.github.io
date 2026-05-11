@@ -6,7 +6,7 @@ categories: "main"
 ---
 ## References
 1. High-dimensional Probability (Vershynin) 
-2. 
+2. [Berkeley's stat210b](https://www.stat.berkeley.edu/~bartlett/courses/2013spring-stat210b/)
 
 # Concentration inequalities
 Measures deviation of random variable $X$ from its means $\mathbb{E}[X]=\mu$. They typically provide two sided bounds on the tails of $X-\mu$ such as 
@@ -47,6 +47,7 @@ $$ ||\mathbb{E}[X]||\leq \mathbb{E}[||X||] $$
 For any pair of $p, q\in[1,\infty]$ s.t $1/p+1/q=1$. For any random variables $X\in L^p$ and $Y\in L^q$ we have 
 
 $$ ||XY||_{L^1}\leq||X||_{L^p}||Y||_{L^q} $$
+
 
 # Oracle inequality
 ## Oracle 
