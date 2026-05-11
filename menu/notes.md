@@ -1,5 +1,5 @@
 ---
-layout: mathsnote
+layout: notes
 title: Notes
 permalink: /notes
 ---
