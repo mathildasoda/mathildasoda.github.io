@@ -67,6 +67,18 @@ The interpretation of this identity is that no unbiased estimator for $g(\theta)
 
 When the prior and the posterior is from the same family, we say the prior is conjugate to the likelihood
 
+## Probabilistic big-O notation
+Let $X_1, X_2,...$ denotes a sequence of random vectors ($||X_n||\lt\infty$ almost surely). We say the sequence is *bounded in probability* (or sometimes *tight*) if $\forall\epsilon\gt 0, \exists M_\epsilon\gt 0$ a constant, for which 
+
+$$ \mathbb{P}[||X_n||\gtM_\epsilon]\lt\epsilon, \forall n $$
+
+Informally, there is "no mass escaping to infinity" as $n$ grows. 
+
+For a fixed sequence $a_n$, we say $X_n=o_p(a_n)$ if $X_n/a_n\xrightarrow{p} 0$ as $n\rightarrow\infty$ and $X_n=O_p(a_n)$ if the sequence $(X_n/a_n)_{n\geq 1}$is bounded in probability. 
+
+E.g: 
+- If $X_n\implies X$ for any random vector $X$, then $X_n=O_p(1)$
+- If $X_n=o_p(a_n)$ then $X_n=O_p(a_n)$
 
 ## Others
 other topics not written here but I might like to revise include: sufficiency and completeness, more bayesian, MLE and stuffs, hypothesis testing etc, bootstrap
