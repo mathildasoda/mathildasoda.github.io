@@ -2,7 +2,7 @@
 layout: post
 title: "Proof of Monte Carlo integration"
 author: "mathilda"
-categories: "main"
+categories: "Homework"
 ---
 
 For some random variable $x \sim p_X$, we approximate multidimensional integral $\int_X f(x) dx$ with some sum $\frac{1}{N}\sum^N_{i=1, x_i\sim p_X} \frac{f(x_i)}{p_X(x_i)}$. Proof:
