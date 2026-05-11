@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic probability"
+title: "Basic statistics"
 author: "mathilda"
 categories: "main"
 ---
