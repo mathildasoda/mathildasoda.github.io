@@ -55,9 +55,9 @@ $$ \sqrt{n}(\hat\theta_n-\theta_0)=\frac{-\sqrt{n}\Psi_n(\theta_0)}{\Psi_n'(\the
 
 where $\tilde\theta_n = \lambda\hat\theta_n + (1-\lambda)\theta_0$ for some $0\leq\lambda\leq 1$.
 
-If $P\psi^2_{\theta_0}$ exists, $P\psi_{\theta_0}'} exists and non-zero, and $\Psi^{'''}_n(\tilde\theta_n)=O_P(1)$. Then 
+If $P\psi^2_{\theta_0} $ exists, $P\psi_{\theta_0}'} exists and non-zero, and $\Psi^{'''}_n(\tilde\theta_n)=O_P(1)$. Then 
 
-$$ \sqrt{n}(\hat\theta_n - \theta_0) \rightsquigarrow N(0, P\psi^2_{\theta_0}/(P\psi'_{\theta_0})^2)
+$$ \sqrt{n}(\hat\theta_n - \theta_0) \rightsquigarrow N(0, P\psi^2_{\theta_0}/(P\psi'_{\theta_0})^2) $$
 
 ## Asymptotic testing
 Consider the asymptotics of a test. We have
@@ -82,15 +82,45 @@ For fixed $h\neq 0, \lambda\xrightarrow{P}-\infty$. I.e: asymptotically we do no
 
 
 ## Local Asymptotic Normality
-Log likelihood ratio of local alternative to true parameter is asymptotically normal.
-
-
-
-## Taylor series
+### Taylor series
 Say we have a density $p_\theta$ w.r.t some measure, and the log likelihood $\mathcal{l}_\theta(x)=\log p_\theta(x)$ is twice diff w.r.t $\theta$, and can be approximated by its second order Taylor series
 
-$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{\dot l}_{\theta}(x)+\frac{1}{2}h^T \mathcal{\dddot l}_{\theta}(x)h + o(\|h\|^2)
+$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{l'}_{\theta}(x)+\frac{1}{2}h^T \mathcal{l''}_{\theta}(x)h + o(\|\|h\|\|^2) $$
 
+then 
 
+$$ \lambda =\log\prod^n_{i=1}\frac{dP_{\theta+h_n}}{dP_\theta}(X_i)=\sum^n\left(\log p_{\theta+h_n}(X_i)-\log p_\theta(X_i)\right)= h^T_n\sum^n \mathcal{l'}_{\theta}(X_i)+\frac{1}{2}h^T_n\sum^n\mathcal{l''}_{\theta}(X_i)h_n + o(n\|\|h\|\|^2) $$
 
+### Quadratic mean differentiabilitiy (QMD)
+The root density $\theta\mapsto\sqrt{p_\theta}$ for ($\theta\in\mathbb{R}^k$) is **differentiable in quadratic mean** at$\theta$ if $\exists l'_\theta:\mathcal{X}\rightarrow\mathbb{R}^k$ a vector-valued measure function s.t., for $h\rightarrow 0$,
 
+$$ \int\left(\sqrt{p_{\theta+h}}-\sqrt{p_\theta}-\frac{1}{2}h^Tl'_\theta\sqrt{p_\theta}\right)^2d\mu=o(\|\|h\|\|^2) $$
+
+### QMD sufficient conditions
+**Theorem**: if
+- $\Theta$ an open subset of $\mathbb{R}^k$
+- $\theta\mapsto\sqrt{p_{\theta}(x)} is continuously diff at $\mu$-almost all $x$
+- $I_\theta=\int p'_\theta p^{'T}_\theta/p_\theta d\mu$ continuous in $\theta$
+Then $\sqrt{p_\theta}$ is QMD at $\theta$, with $l'_\theta=p'_\theta/p_\theta$
+
+E.g: exmponential families are QMD
+
+### Local Asymptotic Normality
+Log likelihood ratio of local alternative to true parameter is asymptotically normal.
+**Theorem**: if $\Theta$ an open subset of $\mathbb{R}^k$ and $P_\theta$ is QMD at $\theta\in\Theta$ then
+- $P_\thetal'_\theta =0$
+- $I_\theta=P_\thetal'_\thetal^T_\theta$ exists
+- $\forall h_n$ satisfying $\sqrt{n}h_n\rightarrow h$
+
+$$ \log\prod^n_{i=1}\frac{p_{\theta+h_n}}{p_\theta}(X_i)=\frac{1}{\sqrt{n}}\sum^n h^Tl'_\theta(X_i)-\frac{1}{2}h^TI_\theta h+oP_\theta(1)\xrightsquigarrow{\theta} N\left(-\frac{1}{2}h^TI_\theta h, h^TI_\theta h\right) $$
+
+i.e: for QMD model $P_\theta$, the loglikelihood ratio $\log\frac{dP^n_{\theta_0+h/\sqrt{n}}}{dP^n_{\theta_0}}(X_i)$ is asymptotically normal.
+
+### Maximum likelihood
+**Theorem** suppose
+- $(P_\theta:\theta\in\Theta)$ is QMD at $\theta$ with nonsigular Fisher information $I_\theta$
+- $\forall x,\theta\mapsto\log p_\theta(x)$ is Lipschitz
+- MLE $\hat\theta_n$ is consistent
+Then
+
+$$ \sqrt{\hat_n-\theta}\xrightsquigarrow{\theta} N(0,I_\theta^{-1}) $$
