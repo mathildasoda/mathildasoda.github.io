@@ -17,7 +17,8 @@ chooses $\theta$ to minimize $L_n(\theta)$
 
 e.g $p_\theta$ a density, $X\sim P, p_{\theta^*}, \mathcal{l}(\theta,z)=-\log p_\theta (z)$ where ERM is maximum likelihood
 
-## M-estimators
+## M-estimator and Z-estimator
+### M-estimator
 To estimate parameter $\theta$ of distribution $P$ of observations $X_1,...,X_n$. We define a criterion in terms of functions $m_\theta:\mathcal{X}\rightarrow\mathbb{R}$
 
 $$ M_n(\theta)=P_nm_\theta $$
@@ -33,17 +34,30 @@ $$ \Psi_n(\theta) = P_n\psi_\theta = 0 $$
 
 Basically M-estimator.
 
-E.g: maximum likelihood $\psi_\thetea(x)=\nabla_\theta \log p_\theta(x)$
+E.g: maximum likelihood $\psi_\theta(x)=\nabla_\theta \log p_\theta(x)$
 
 ### Consistency of M- and Z-estimators
-We want to show that $\hat\theta\xrightarrow{P}\thetea_0$ where $\hat\theta$ approximately maximizes $M_n(\theta)=P_n m_\theta$ and $\theta_0$ maximizes $M(\theta)=Pm_\theta$. We use a uniform law of large number
+We want to show that $\hat\theta\xrightarrow{P}\theta_0$ where $\hat\theta$ approximately maximizes $M_n(\theta)=P_n m_\theta$ and $\theta_0$ maximizes $M(\theta)=Pm_\theta$. We use a uniform law of large number
 
 **Theorem**: suppose that
-1. $\sup_{\theta\in\Theta}|M_n(\theta)-M(\theta)|\xrightarrow{P}0$
+1. $\sup_{\theta\in\Theta}\mid M_n(\theta)-M(\theta)\mid\xrightarrow{P}0$
 2. $\forall\epsilon>0,\sup\{M(\theta):d(\theta,\theta_0)\geq\epsilon\}\lt M(\theta_0)$
 3. $M_n(\hat\theta_n)\geq M_n(\theta_0)-o_P(1)$
 
-Then $\hat\thetea_n\xrightarrow{P}\theta_0$
+Then $\hat\theta_n\xrightarrow{P}\theta_0$
+
+### Asymptotic normality of Z-estimators
+Consider: $\Psi_n(\theta)=P_n\psi_\theta$, and $\Psi(\theta)=P\psi_\theta$. 
+
+Suppose $\hat\theta_n\in\mathbb{R}$ is a zero of $\Psi_n,\theta_0\in\mathbb{R}$ is a zero of $\Psi,\hat\theta_n\xrightarrow{P}\theta_0$. Then
+
+$$ \sqrt{n}(\hat\theta_n-\theta_0)=\frac{-\sqrt{n}\Psi_n(\theta_0)}{\Psi_n'(\theta_0)+(1/2)(\hat\theta_n-\theta_0)\Psi_n^{\'\'}(\tilde\theta_n)} $$
+
+where $\tilde\theta_n = \lambda\hat\theta_n + (1-\lambda)\theta_0$ for some $0\leq\lambda\leq 1$.
+
+If $P\psi^2_{\theta_0$ exists, $P\psi_{\theta_0}'} exists and non-zero, and $\Psi^{\'\'\'}_n(\tilde\theta_n)=O_P(1)$. Then 
+
+$$ \sqrt{n}(\hat\theta_n - \theta_0) \rightsquigarrow N(0, P\psi^2_{\theta_0}/(P\psi^{\'}_{\theta_0})^2)
 
 ## Asymptotic testing
 Consider the asymptotics of a test. We have
@@ -56,9 +70,16 @@ $$ \lambda=\log\prod^n_{i=1} \frac{dP_{\theta_0+h}(X_i)}{dP_{\theta_0}(X_i)}$$
 
 and reject the null hypothesis if it is sufficiently large.
 
-An example: the exponential family with sufficient statistics $T$ has density $$
+An example: supposer $P_\theta = N(\theta,\sigma^2)$. Then 
 
-## Contiguity
+$$ \lambda = \log\prod^n_{i=1}\frac{dP_{\theta_0+h}}{dP_{\theta_0}}(X_i)=\log\prod \frac{\exp(-(x-\theta_0-h)^2/(2\sigma^2))}{\exp(-(x-\theta_0)^2/(2\sigma^2))}=\frac{1}{2\sigma^2}\sum^n_{i=1}\left((X_i-\theta_0)^2-(X_i-\theta_0-h)^2\right) = \frac{nh}{\sigma^2}(\bar X -\theta_0)-\frac{nh^2}{2\sigma^2}$$
+
+So under the null hypothesis $X\sim N(\theta_0,\sigma^2)\implies\sum^n X_i\sim N(n\theta_0,n\sigma^2)\implies \bar X\sim N(\theta_0,\sigma^2/n)$. And the log likelihood ratio is $\lambda \sim N(-\frac{nh^2}{2\sigma^2},\frac{nh^2}{\sigma^2})
+
+writing these blind are actually pretty tedious :/
+
+For fixed $h\neq 0, \lambda\xrightarrow{P}-\infty$. I.e: asymptotically we do not reject the null hypothesis. Consider instead: $h_n\rightarrow 0, \sqrt{n}h_n\rightarrow h\neq 0$. Then its parameter approaches $N(-h^2/(2\sigma^2), h^2/\sigma^2)$. Then provided $h_n/(2\sigma^2)\gg n^{-1/2}$, we do not reject the null hypothesis. 
+
 
 ## Local Asymptotic Normality
 Log likelihood ratio of local alternative to true parameter is asymptotically normal.
@@ -68,6 +89,8 @@ Log likelihood ratio of local alternative to true parameter is asymptotically no
 ## Taylor series
 Say we have a density $p_\theta$ w.r.t some measure, and the log likelihood $\mathcal{l}_\theta(x)=\log p_\theta(x)$ is twice diff w.r.t $\theta$, and can be approximated by its second order Taylor series
 
-$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{l'}_{\theta}(x)+\frac{1}{2}h^T \mathcal{l'''}_{\theta}(x)h + o(||h||^2)
+$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{\dot l}_{\theta}(x)+\frac{1}{2}h^T \mathcal{\dddot l}_{\theta}(x)h + o(||h||^2)
+
+
 
 
