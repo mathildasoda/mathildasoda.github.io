@@ -51,13 +51,13 @@ Consider: $\Psi_n(\theta)=P_n\psi_\theta$, and $\Psi(\theta)=P\psi_\theta$.
 
 Suppose $\hat\theta_n\in\mathbb{R}$ is a zero of $\Psi_n,\theta_0\in\mathbb{R}$ is a zero of $\Psi,\hat\theta_n\xrightarrow{P}\theta_0$. Then
 
-$$ \sqrt{n}(\hat\theta_n-\theta_0)=\frac{-\sqrt{n}\Psi_n(\theta_0)}{\Psi_n'(\theta_0)+(1/2)(\hat\theta_n-\theta_0)\Psi_n^{\'\'}(\tilde\theta_n)} $$
+$$ \sqrt{n}(\hat\theta_n-\theta_0)=\frac{-\sqrt{n}\Psi_n(\theta_0)}{\Psi_n'(\theta_0)+(1/2)(\hat\theta_n-\theta_0)\Psi_n^{''}(\tilde\theta_n)} $$
 
 where $\tilde\theta_n = \lambda\hat\theta_n + (1-\lambda)\theta_0$ for some $0\leq\lambda\leq 1$.
 
-If $P\psi^2_{\theta_0$ exists, $P\psi_{\theta_0}'} exists and non-zero, and $\Psi^{\'\'\'}_n(\tilde\theta_n)=O_P(1)$. Then 
+If $P\psi^2_{\theta_0}$ exists, $P\psi_{\theta_0}'} exists and non-zero, and $\Psi^{'''}_n(\tilde\theta_n)=O_P(1)$. Then 
 
-$$ \sqrt{n}(\hat\theta_n - \theta_0) \rightsquigarrow N(0, P\psi^2_{\theta_0}/(P\psi^{\'}_{\theta_0})^2)
+$$ \sqrt{n}(\hat\theta_n - \theta_0) \rightsquigarrow N(0, P\psi^2_{\theta_0}/(P\psi'_{\theta_0})^2)
 
 ## Asymptotic testing
 Consider the asymptotics of a test. We have
@@ -74,7 +74,7 @@ An example: supposer $P_\theta = N(\theta,\sigma^2)$. Then
 
 $$ \lambda = \log\prod^n_{i=1}\frac{dP_{\theta_0+h}}{dP_{\theta_0}}(X_i)=\log\prod \frac{\exp(-(x-\theta_0-h)^2/(2\sigma^2))}{\exp(-(x-\theta_0)^2/(2\sigma^2))}=\frac{1}{2\sigma^2}\sum^n_{i=1}\left((X_i-\theta_0)^2-(X_i-\theta_0-h)^2\right) = \frac{nh}{\sigma^2}(\bar X -\theta_0)-\frac{nh^2}{2\sigma^2}$$
 
-So under the null hypothesis $X\sim N(\theta_0,\sigma^2)\implies\sum^n X_i\sim N(n\theta_0,n\sigma^2)\implies \bar X\sim N(\theta_0,\sigma^2/n)$. And the log likelihood ratio is $\lambda \sim N(-\frac{nh^2}{2\sigma^2},\frac{nh^2}{\sigma^2})
+So under the null hypothesis $X\sim N(\theta_0,\sigma^2)\implies\sum^n X_i\sim N(n\theta_0,n\sigma^2)\implies \bar X\sim N(\theta_0,\sigma^2/n)$. And the log likelihood ratio is $\lambda \sim N(-\frac{nh^2}{2\sigma^2},\frac{nh^2}{\sigma^2}) $
 
 writing these blind are actually pretty tedious :/
 
@@ -89,7 +89,7 @@ Log likelihood ratio of local alternative to true parameter is asymptotically no
 ## Taylor series
 Say we have a density $p_\theta$ w.r.t some measure, and the log likelihood $\mathcal{l}_\theta(x)=\log p_\theta(x)$ is twice diff w.r.t $\theta$, and can be approximated by its second order Taylor series
 
-$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{\dot l}_{\theta}(x)+\frac{1}{2}h^T \mathcal{\dddot l}_{\theta}(x)h + o(||h||^2)
+$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{\dot l}_{\theta}(x)+\frac{1}{2}h^T \mathcal{\dddot l}_{\theta}(x)h + o(\|h\|^2)
 
 
 
