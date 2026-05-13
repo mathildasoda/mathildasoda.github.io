@@ -108,8 +108,8 @@ $$ \mathbb{E}[|Y_n|]\lt \infty $$
 
 $$ \mathbb{E}[Y_{n+1}\mid\mathcal{F}_n] = Y_n $$
 
-- $\mathcal{F}_n$ is a **filtration** means these $\sigma-$fields are nested: $\mathcal{F}_n\subseteq\mathcal{F}_{n+1}$
 - $Y_n$ is **adapted** to $\mathcal{F}_n$ means that each $Y_n$ is measurable w.r.t $\mathcal{F}_n$
+- $\mathcal{F}_n$ is a **filtration** means these $\sigma$-fields are nested: $\mathcal{F}_n \subseteq \mathcal{F}_{n+1}$
 
 ## Others
 other topics not written here but I might like to revise include: sufficiency and completeness, more bayesian, MLE and stuffs, hypothesis testing etc, bootstrap, martingales

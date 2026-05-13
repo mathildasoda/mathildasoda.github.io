@@ -23,6 +23,15 @@ Let $X_1,...X_N$ be independent, mean-zero random variables s.t $\forall i, |X_i
 
 $$ \mathbb{P}(|\sum^N_{i=1}X_i|\geq t)\leq 2\exp\Big(-\frac{t^2/2}{Kt/3+\sum^N_{i=1}\mathbb{E}[X^2_i]}\Big) $$
 
+## Bounded Differences
+Suppose $f:\mathcal{X}^n\rightarrow\mathbb{R}$ satisfies the following **bounded differences inequality**: $\forall x_1,..., x_n, x'_i\in\mathcal{X}$, 
+
+$$ |f(x_1,...,x_n)-f(x_1,...,x_{i-1},x'_i, x_{i+1},...,x_n)|\leq B_i $$
+
+Then 
+
+$$ \mathbb{P}(|f(X)-\mathbb{E}[f(x)]|\geq t)\leq 2\exp\left(-\frac{2t^2}{\sum_i B_i^2}\right) $$
+
 # Basic inequalities
 ## Markov
 For any non negative random variable $X$ and $t>0$ 
