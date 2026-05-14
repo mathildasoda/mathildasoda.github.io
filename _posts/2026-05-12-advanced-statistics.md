@@ -85,25 +85,25 @@ For fixed $h\neq 0, \lambda\xrightarrow{P}-\infty$. I.e: asymptotically we do no
 ### Taylor series
 Say we have a density $p_\theta$ w.r.t some measure, and the log likelihood $\mathcal{l}_\theta(x)=\log p_\theta(x)$ is twice diff w.r.t $\theta$, and can be approximated by its second order Taylor series
 
-$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{l'}_{\theta}(x)+\frac{1}{2}h^T \mathcal{l''}_{\theta}(x)h + o(\|\|h\|\|^2) $$
+$$ \mathcal{l}_{\theta+h}(x)= \mathcal{l}_{\theta}(x)+h^T \mathcal{l'}_{\theta}(x)+\frac{1}{2}h^T \mathcal{l''}_{\theta}(x)h + o(\|h\|^2) $$
 
 then 
 
-$$ \lambda =\log\prod^n_{i=1}\frac{dP_{\theta+h_n}}{dP_\theta}(X_i)=\sum^n\left(\log p_{\theta+h_n}(X_i)-\log p_\theta(X_i)\right)= h^T_n\sum^n \mathcal{l'}_{\theta}(X_i)+\frac{1}{2}h^T_n\sum^n\mathcal{l''}_{\theta}(X_i)h_n + o(n\|\|h\|\|^2) $$
+$$ \lambda =\log\prod^n_{i=1}\frac{dP_{\theta+h_n}}{dP_\theta}(X_i)=\sum^n\left(\log p_{\theta+h_n}(X_i)-\log p_\theta(X_i)\right)= h^T_n\sum^n \mathcal{l'}_{\theta}(X_i)+\frac{1}{2}h^T_n\sum^n\mathcal{l''}_{\theta}(X_i)h_n + o(n\|h\|^2) $$
 
 ### Quadratic mean differentiabilitiy (QMD)
 The root density $\theta\mapsto\sqrt{p_\theta}$ for ($\theta\in\mathbb{R}^k$) is **differentiable in quadratic mean** at$\theta$ if $\exists l'_\theta:\mathcal{X}\rightarrow\mathbb{R}^k$ a vector-valued measure function s.t., for $h\rightarrow 0$,
 
-$$ \int\left(\sqrt{p_{\theta+h}}-\sqrt{p_\theta}-\frac{1}{2}h^Tl'_\theta\sqrt{p_\theta}\right)^2d\mu=o(\|\|h\|\|^2) $$
+$$ \int\left(\sqrt{p_{\theta+h}}-\sqrt{p_\theta}-\frac{1}{2}h^Tl'_\theta\sqrt{p_\theta}\right)^2d\mu=o(\|h\|^2) $$
 
 ### QMD sufficient conditions
 **Theorem**: if
 - $\Theta$ an open subset of $\mathbb{R}^k$
-- $\theta\mapsto\sqrt{p_{\theta}(x)} is continuously diff at $\mu$-almost all $x$
+- $\theta\mapsto\sqrt{p_{\theta}(x)}$ is continuously diff at $\mu$-almost all $x$
 - $I_\theta=\int p'_\theta p^{'T}_\theta/p_\theta d\mu$ continuous in $\theta$
 Then $\sqrt{p_\theta}$ is QMD at $\theta$, with $l'_\theta=p'_\theta/p_\theta$
 
-E.g: exmponential families are QMD
+E.g: exponential families are QMD
 
 ### Local Asymptotic Normality
 Log likelihood ratio of local alternative to true parameter is asymptotically normal.
@@ -123,4 +123,4 @@ i.e: for QMD model $P_\theta$, the loglikelihood ratio $\log\frac{dP^n_{\theta_0
 - MLE $\hat\theta_n$ is consistent
 Then
 
-$$ \sqrt{\hat_n-\theta}\xrightsquigarrow{\theta} N(0,I_\theta^{-1}) $$
+$$ \sqrt{\hat\theta_n-\theta}\xrightsquigarrow{\theta} N(0,I_\theta^{-1}) $$
