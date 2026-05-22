@@ -31,6 +31,16 @@ And evaluating at $u=0$ gives $\frac{\partial}{\partial u_j} M^X(0)=\int_\mathca
 
 The cumulant-generating function is the log of the MGF.
 
+**Notes**: As $\mathb{P}[X\geq a]=\mathbb{P}[e^{bX}\geq e^{ba}]\forall b\geq 0$. Then applying Markov: 
+
+$$ \mathbb{E}[X\geq a]=\frac{\mathbb{E}[e^{bX}]}{e^{ba}}$$
+
+The MGF of $X$ is $M_X(b) = \mathbb{E}[e^{bX}]$. Applying Taylor
+
+$$ M_X(b) = \mathbb{E}[1+bx+\frac{(bx)^2}{2!}]+\frac{(bx)^3}{3!}]+\frac{(bx)^4}{4!}+...] = \mathbb{E}[\sum^\infty_{n=1}\frac{(bx)^n}{n!}] = \sum^\infty_{n=1}\frac{b^n}{n!}\mathbb{E}[X^n]  $$
+
+Taking $d/db$ $n^{th}$ times get rid of the first $(n-1)^{th}$ variables, leaving us with the wanted expectation. Setting $b=0$ get rid of the rest
+
 ## Sufficiency
 A statistics $T(X)$ is any r.v which is a function of the data $X$ and which does not depend on the unknown parameters $\theta$. Such statistics is called sufficient for th model $\mathcal{P}$ if $P_\theta(X\mid T)$ does not depend on $\theta$.
 
