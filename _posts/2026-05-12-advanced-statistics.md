@@ -7,6 +7,34 @@ categories: "main"
 ## References
 1. [Berkeley's stat210b](https://www.stat.berkeley.edu/~bartlett/courses/2013spring-stat210b/)
 2. Van der Vaart - Asymptotic statistics. Chapter 5.
+3. [CMU's 36-709](https://www.stat.cmu.edu/~arinaldo/Teaching/36709/S19/)
+
+## Master Theorem for Parametric Models
+Let
+1. $p_\theta$ be the density for the distribution $P_\theta$
+2. $L_n(\theta\mid X_n)=\prod p_\theta(x_i)$ be the likelihood function, $l_n(\theta\mid X_n)=\log L_m(\theta\mid X_n)=\sum \log p_\theta(x_i)$
+3. $\nabla_\theta l_n(\theta)$ (i.e the score) be the gradient of $l_n(\theta)$; $H l_n(\theta)$ be the Hessian of $l_n(\theta)$
+4. $I(\theta)=-\mathbb{E}_x[H l_n(\theta\mid x)]$ be the Fisher Information
+
+Then, under certain regularity conditions (smoothness, identfiability,...) on $P$, let $\tilde \Theta_n$ be a solution to the score equation $\nabla l_n(\theta)=0$ (i,e the MLE). We have:
+- $\Theta_n$ exists and $\Theta_n\xrightarrow{p}\Theta_0$ (WLLN)
+- $\sqrt{n}(\tilde\Theta_n - \Theta_0)\xrightarrow{d} \mathcal{N}_d(0, I^{-1}(\Theta_0))$ (CLT)
+- $2\log\tilde\lambda_n \xrightarrow{d}\Chi^2_d$ where $\tilde\lambda_n=\frac{l_n(\Theta_n\mid X_i)}{\Theta_0\mid X_n} (Wilk's Theorem)
+- $n(\Theta_n-\Theta_0)^T\hat I_n(\tilde\Theta_n)(\tilde \Theta_n-\Theta_0)\xrightarrow{d}\Chi^2_d$ (Wald Test)
+
+(Maybe i can work out these for general M-estimator later)
+
+## Sub-gaussian random variable
+Rv $X$ is sub0Gaussian with parameter $\sigma$ if, $\forall \lambda\in\mathbb{R}$
+
+$$ \mathbb{E}[\exp(\lambda(X-\mathbb{E}[X]))]\leq\exp(\frac{\lambda^2\sigma^2}{2}) $$
+
+## Sub-exponential random variable
+Rv $X$ is sub-exponential with parameters $\nu,\alpha\gt 0$ if, $\forall|\lambda|\lt 1/\alpha$
+
+$$ \mathbb{E}[\exp(\lambda(X-\mathbb{E}[X]))]\leq \exp(\frac{\lambda^2\nu^2}{2}) $$
+
+All sub-gaussian r.v are also sub-exponential
 
 ## Empirical Risk Minimization
 Suppose $Z_1,...,Z_n$ are i.i.d according to $P$
@@ -124,3 +152,6 @@ i.e: for QMD model $P_\theta$, the loglikelihood ratio $\log\frac{dP^n_{\theta_0
 Then
 
 $$ \sqrt{\hat\theta_n-\theta}\xrightsquigarrow{\theta} N(0,I_\theta^{-1}) $$
+
+## Some other topics to look into
+orlicz norm
