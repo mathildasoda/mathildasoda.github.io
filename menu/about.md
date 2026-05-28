@@ -9,8 +9,10 @@ My main interest lies in Bayesian statistics, and applying mathematical/computat
 
 In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
+Starting october 2026, I will be a Master's student in Statistics and Data Science at Ludwig-Maximilians-Universität München.  
+
 # Experience
-**Los Alamos National Lab - Theoretical division** (post-bacc): Researching sampling methods for high dimensional problems; continuing the geomorphology project from previous division
+**Los Alamos National Lab - Theoretical division** (post-bacc): Researching inference and sampling method
 
 **Los Alamos National Lab - Earth & Environmental division** (post-bacc): Contributed to computational fire dynamics code; developing methods in geomorphology
 
