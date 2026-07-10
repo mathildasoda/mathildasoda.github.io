@@ -79,6 +79,8 @@ by bounding the mgf by the Gaussian mgf
 $$ \mathbb{P}(X-\mu \geq t)\leq \exp(-\frac{1}{2}\min\left(\frac{t^2}{\nu^2},\frac{t}{\alpha}\right)) $$
 
 ## Bernstein
+[TODO] vershynin 2.9
+
 ### Bernstein condition
 Let rv $X$ with mean $\mu$ and variance $\sigma^2$. Assume $\exists b\gt 0$:
 

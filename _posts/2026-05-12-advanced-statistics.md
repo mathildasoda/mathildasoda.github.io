@@ -19,13 +19,13 @@ Let
 Then, under certain regularity conditions (smoothness, identfiability,...) on $P$, let $\tilde \Theta_n$ be a solution to the score equation $\nabla l_n(\theta)=0$ (i,e the MLE). We have:
 - $\Theta_n$ exists and $\Theta_n\xrightarrow{p}\Theta_0$ (WLLN)
 - $\sqrt{n}(\tilde\Theta_n - \Theta_0)\xrightarrow{d} \mathcal{N}_d(0, I^{-1}(\Theta_0))$ (CLT)
-- $2\log\tilde\lambda_n \xrightarrow{d}\Chi^2_d$ where $\tilde\lambda_n=\frac{l_n(\Theta_n\mid X_i)}{\Theta_0\mid X_n} (Wilk's Theorem)
-- $n(\Theta_n-\Theta_0)^T\hat I_n(\tilde\Theta_n)(\tilde \Theta_n-\Theta_0)\xrightarrow{d}\Chi^2_d$ (Wald Test)
+- $2\log\tilde\lambda_n \xrightarrow{d}\chi^2_d$ where $\tilde\lambda_n=\frac{l_n(\Theta_n\mid X_i)}{\Theta_0\mid X_n}$ (Wilk's Theorem)
+- $n(\Theta_n-\Theta_0)^T\hat I_n(\tilde\Theta_n)(\tilde \Theta_n-\Theta_0)\xrightarrow{d}\chi^2_d$ (Wald Test)
 
 (Maybe i can work out these for general M-estimator later)
 
 ## Sub-gaussian random variable
-Rv $X$ is sub0Gaussian with parameter $\sigma$ if, $\forall \lambda\in\mathbb{R}$
+Rv $X$ is sub-Gaussian with parameter $\sigma$ if, $\forall \lambda\in\mathbb{R}$
 
 $$ \mathbb{E}[\exp(\lambda(X-\mathbb{E}[X]))]\leq\exp(\frac{\lambda^2\sigma^2}{2}) $$
 
