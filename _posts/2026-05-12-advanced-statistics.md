@@ -128,19 +128,19 @@ $$ \int\left(\sqrt{p_{\theta+h}}-\sqrt{p_\theta}-\frac{1}{2}h^Tl'_\theta\sqrt{p_
 **Theorem**: if
 - $\Theta$ an open subset of $\mathbb{R}^k$
 - $\theta\mapsto\sqrt{p_{\theta}(x)}$ is continuously diff at $\mu$-almost all $x$
-- $I_\theta=\int p'_\theta p^{'T}_\theta/p_\theta d\mu$ continuous in $\theta$
-Then $\sqrt{p_\theta}$ is QMD at $\theta$, with $l'_\theta=p'_\theta/p_\theta$
+- $I_\theta=\int p\'_\theta p^{\'T}_\theta/p_\theta d\mu$ continuous in $\theta$
+Then $\sqrt{p_\theta}$ is QMD at $\theta$, with $l\'_\theta=p\'_\theta/p_\theta$
 
 E.g: exponential families are QMD
 
 ### Local Asymptotic Normality
 Log likelihood ratio of local alternative to true parameter is asymptotically normal.
 **Theorem**: if $\Theta$ an open subset of $\mathbb{R}^k$ and $P_\theta$ is QMD at $\theta\in\Theta$ then
-- $P_\thetal'_\theta =0$
-- $I_\theta=P_\thetal'_\thetal^T_\theta$ exists
+- $P_\theta l\'_\theta =0$
+- $I_\theta=P_\theta l\'_\theta l^T_\theta$ exists
 - $\forall h_n$ satisfying $\sqrt{n}h_n\rightarrow h$
 
-$$ \log\prod^n_{i=1}\frac{p_{\theta+h_n}}{p_\theta}(X_i)=\frac{1}{\sqrt{n}}\sum^n h^Tl'_\theta(X_i)-\frac{1}{2}h^TI_\theta h+oP_\theta(1)\xrightsquigarrow{\theta} N\left(-\frac{1}{2}h^TI_\theta h, h^TI_\theta h\right) $$
+$$ \log\prod^n_{i=1}\frac{p_{\theta+h_n}}{p_\theta}(X_i)=\frac{1}{\sqrt{n}}\sum^n h^Tl'_\theta(X_i)-\frac{1}{2}h^TI_\theta h+oP_\theta(1)\rightsquigarrow_{\theta} N\left(-\frac{1}{2}h^TI_\theta h, h^TI_\theta h\right) $$
 
 i.e: for QMD model $P_\theta$, the loglikelihood ratio $\log\frac{dP^n_{\theta_0+h/\sqrt{n}}}{dP^n_{\theta_0}}(X_i)$ is asymptotically normal.
 
@@ -151,7 +151,7 @@ i.e: for QMD model $P_\theta$, the loglikelihood ratio $\log\frac{dP^n_{\theta_0
 - MLE $\hat\theta_n$ is consistent
 Then
 
-$$ \sqrt{\hat\theta_n-\theta}\xrightsquigarrow{\theta} N(0,I_\theta^{-1}) $$
+$$ \sqrt{\hat\theta_n-\theta}\rightsquigarrow_{\theta} N(0,I_\theta^{-1}) $$
 
 ## Some other topics to look into
 orlicz norm
