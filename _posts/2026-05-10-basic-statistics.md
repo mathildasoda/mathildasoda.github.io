@@ -31,7 +31,7 @@ And evaluating at $u=0$ gives $\frac{\partial}{\partial u_j} M^X(0)=\int_\mathca
 
 The cumulant-generating function is the log of the MGF.
 
-**Notes**: As $\mathb{P}[X\geq a]=\mathbb{P}[e^{bX}\geq e^{ba}]\forall b\geq 0$. Then applying Markov: 
+**Notes**: As $\mathbb{P}[X\geq a]=\mathbb{P}[e^{bX}\geq e^{ba}]\forall b\geq 0$. Then applying Markov: 
 
 $$ \mathbb{E}[X\geq a]=\frac{\mathbb{E}[e^{bX}]}{e^{ba}}$$
 
@@ -119,7 +119,7 @@ $$ \mathbb{E}[|Y_n|]\lt \infty $$
 $$ \mathbb{E}[Y_{n+1}\mid\mathcal{F}_n] = Y_n $$
 
 - $Y_n$ is **adapted** to $\mathcal{F}_n$ means that each $Y_n$ is measurable w.r.t $\mathcal{F}_n$
-- $\mathcal{F}_n$ is a **filtration** means these $\sigma$-fields are nested: $\mathcal{F}_n \subseteq \mathcal{F}_{n+1}$
+- A **filtration** means these $\sigma$-fields are nested: $\mathcal{F}_n \subseteq \mathcal{F}_{n+1}$
 
 ## Others
 other topics not written here but I might like to revise include: sufficiency and completeness, more bayesian, MLE and stuffs, hypothesis testing etc, bootstrap, martingales
