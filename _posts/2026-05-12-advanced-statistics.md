@@ -128,9 +128,9 @@ $$ \int\left(\sqrt{p_{\theta+h}}-\sqrt{p_\theta}-\frac{1}{2}h^Tl'_\theta\sqrt{p_
 **Theorem**: if
 - $\Theta$ an open subset of $\mathbb{R}^k$
 - $\theta\mapsto\sqrt{p_{\theta}(x)}$ is continuously diff at $\mu$-almost all $x$
-- $I_\theta = \int p^\prime_\theta p^{\prime T}_\theta / p_\theta d\mu$ is continuous in $\theta
+- $ I_\theta = \int p^{'}_\theta p^{' T}_\theta \/ p_\theta d\mu $ is continuous in $\theta$
 
-Then $\sqrt{p_\theta} is QMD at $\theta$, with $l^\prime_\theta = p^\prime_\theta / p_\theta$
+Then $\sqrt{p_\theta} is QMD at $\theta$, with $l^{'}_\theta = p^{'}_\theta \/ p_\theta$
 
 E.g: exponential families are QMD
 
