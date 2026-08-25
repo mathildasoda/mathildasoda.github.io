@@ -6,6 +6,7 @@ body {
   font-family: $serif-font-family;
   font-size: 14px;
   color: $body-color;
+  background-color: $background-color;   /* add this line */
   line-height: 1.75rem;
 }
 
