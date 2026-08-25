@@ -3,16 +3,16 @@ layout: page
 title: About
 permalink: /about
 ---
-Hello, I'm Mathilda. Currently, I'm a post-baccalaureate working at Los Alamos on sampling methods. 
+Hello, I'm Mathilda. Currently, I'm working at Los Alamos on sampling methods. 
 
-My main interest lies in Bayesian statistics, and applying mathematical/computational methods to problems in the sciences.
+My main interest lies in statistical learning, and their application to problems in the sciences.
 
 In 2024, I finished my undergraduate with a B.S in Mathematics and a B.S in Computer Science (tracks: AI & ML, Numerical & Symbolic computation). I also hold an Intermediate Proficiency Certificate in German, and a minor in Linguistics.
 
 Starting october 2026, I will be a Master's student in Statistics and Data Science at Ludwig-Maximilians-Universität München.  
 
 # Experience
-**Los Alamos National Lab - Theoretical division** (post-bacc): Researching inference and sampling method
+**Los Alamos National Lab - Theoretical division** (post-bacc/GRA): Researching inference and sampling method
 
 **Los Alamos National Lab - Earth & Environmental division** (post-bacc): Contributed to computational fire dynamics code; developing methods in geomorphology
 
@@ -31,4 +31,4 @@ Starting october 2026, I will be a Master's student in Statistics and Data Scien
 # Trivia
 I like linux's open source philosophy and customizability (I use [artix](https://artixlinux.org/) these days). 
 
-I drive a '93 mx-5.
+~~I drive a '93 mx-5.~~ Unfortunately mx-5 has been obliterated by truck :( 

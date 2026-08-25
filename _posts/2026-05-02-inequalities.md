@@ -53,7 +53,7 @@ $$ \mathbb{P}(|X-\mu|\geq t)\leq\frac{\sigma^2}{t^2} $$
 Let $X=\sum^n_{i=1}X_i$ with probability $p_i$ and $X_i=0$ with probability $1-p_i$, and all $X_i$ are independent. Let $\mu-\mathbb{E}[X]=\sum^n p_i$. Then 
 - **Upper Tail**: $\mathbb{P}(X\geq(1+\delta)\mu)\leq\exp(-\frac{\delta^2\mu}{2+\delta}), \forall\delta\gt 0$
 - **Lower Tail**: $\mathbb{P}(X\leq(1-\delta)\mu)\leq\exp(-\frac{\delta^2\mu}{2}), \forall\delta\in(0,1)$
-- **Combined**: $\mathbb{P}(|X-\mu|\geq\delta\mu)\leq2\exp(-\frac{\delta^2\mu}{3}), \forall\delta\in(0,1)$
+- **Combined**: $\mathbb{P}(\mid X-\mu\mid \geq\delta\mu)\leq2\exp(-\frac{\delta^2\mu}{3}), \forall\delta\in(0,1)$
 
 ### General
 Can be derived from Markov. For $a\gt 0$
