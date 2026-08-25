@@ -25,6 +25,15 @@ Let $X_1,...X_N$ be independent, mean-zero random variables s.t $\forall i, |X_i
 
 $$ \mathbb{P}(|\sum^N_{i=1}X_i|\geq t)\leq 2\exp\Big(-\frac{t^2/2}{Kt/3+\sum^N_{i=1}\mathbb{E}[X^2_i]}\Big) $$
 
+## Hoeffding's Lemma
+Let $X$ be real-valued r.v s.t $a\leq X \leq b$ a.s. Then, $\forall\lambda \in \mathbb{R}$
+
+$$ \mathbb{E}[e^{\lambda X}]\leq \exp(\lambda\mathbb{E}[X] + \frac{\lambda^2(b-a)^2}{8}) $$
+
+or equivalently,
+
+$$ \mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]\leq \exp(\frac{\lambda^2(b-a)^2}{8}) $$
+
 ## Bounded Differences
 Suppose $f:\mathcal{X}^n\rightarrow\mathbb{R}$ satisfies the following **bounded differences inequality**: $\forall x_1,..., x_n, x'_i\in\mathcal{X}$, 
 
