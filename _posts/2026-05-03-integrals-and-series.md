@@ -9,11 +9,17 @@ categories: "main"
 2. [Gaussian integral wiki page](https://en.wikipedia.org/wiki/Gaussian_integral) 
 3. [List of handy inequality](https://www.lkozma.net/inequalities_cheat_sheet/ineq.pdf)
 
-## Integrals
+## Gaussian(-ish) integrals
 
 $$ \int^\infty_{-\infty} \exp(-a(x+b)^2)dx = \sqrt{\frac{pi}{a}} $$
 
-$$ \mathbb{E}[X]=\int^\infty_0 \mathbb{P}(X \geq x)dx \qquad \text{ for }X\geq 0$$
+$$ I(a) = \int^\infty_{-\infty}e^{-ax^2}dx = \sqrt{\frac{\pi}{a}} $$
+
+$$ I(a) = \int^\infty_{-\infty}(-x^2)e^{-ax^2}dx = -\frac{1}{2}\frac{\sqrt{\pi}}{a^{3/2}} $$
+
+And generally: with $\gamma = \frac{m+1}{n}=1,2,...$
+
+$$ \int x^m\exp(-\beta x^n) dx = -\frac{(\gamma-1)!}{n}\exp(-\beta x^n)\sum^{\gamma-1}_{k=0}\frac{x^{nk}}{k!\beta^{\gamma-k}} $$
 
 ## Taylor 
 ### General 

@@ -121,5 +121,9 @@ $$ \mathbb{E}[Y_{n+1}\mid\mathcal{F}_n] = Y_n $$
 - $Y_n$ is **adapted** to $\mathcal{F_n}$ means that each $Y_n$ is measurable w.r.t $\mathcal{F}_n$
 - A **filtration** means these $\sigma$-fields are nested: $\mathcal{F}_n \subseteq \mathcal{F}_{n+1}$
 
+## Miscellaneous
+
+$$ \mathbb{E}[X]=\int^\infty_0 \mathbb{P}(X \geq x)dx \qquad \text{ for }X\geq 0$$
+
 ## Others
 other topics not written here but I might like to revise include: sufficiency and completeness, more bayesian, MLE and stuffs, hypothesis testing etc, bootstrap, martingales
