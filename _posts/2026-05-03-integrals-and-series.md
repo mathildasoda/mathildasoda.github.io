@@ -5,7 +5,7 @@ author: "mathilda"
 categories: "main"
 ---
 ## References
-1. Jeffrey & Zwillinger Tables of Integrals, Series, and Products 
+1. [Jeffrey & Zwillinger Tables of Integrals, Series, and Products](http://web.phy.ntnu.edu.tw/~hongyi/notes/Books/Gradshteyn,%20Ryzhik_Table%20of%20Integrals%20,Series%20and%20Products_2007_MC.pdf)
 2. [Gaussian integral wiki page](https://en.wikipedia.org/wiki/Gaussian_integral) 
 3. [List of handy inequality](https://www.lkozma.net/inequalities_cheat_sheet/ineq.pdf)
 
